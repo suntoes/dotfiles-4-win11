@@ -1,0 +1,15 @@
+shell:
+  program: /bin/zsh
+  args: 
+    - -l
+    - -c
+    - "tmux attach || tmux"
+
+
+window:
+  opacity: 0.9
+
+font:
+  normal:
+    family: Anonymice Nerd Font Mono
+    style: Regular
